@@ -1,0 +1,96 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>YOUR_TITLE_HERE</title>
+  <!-- meta tags make it easier for search engines (like Google) and users to know what your site is about -->
+  <meta name="description" content="YOUR_NAME personal website">
+  <meta name="author" content="YOUR_NAME">
+
+  <!-- Bootstrap is the most popular CSS framework out there. This file is hosted on a CDN (bootstrapcdn) for simplicity. -->
+  <!-- You may need to change this link to upgrade the library or if there is an issue with the CDN link -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- This is the image that shows up in the corner of the browser tab. You can replace the image in this folder, but make sure it is still named favicon.png -->
+  <!-- The way this is written works for all modern browsers -->
+  <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+
+  <!-- I'm loading a custom font which is not necessary but is pretty. -->
+  <!-- You can go here: https://fonts.google.com to find different fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Mitr&display=swap" rel="stylesheet">
+
+  <style>
+    /* It's not usually a "best practice" to add CSS styles into HTML like this but it makes it easier for you to make changes */
+    a,
+    a:focus,
+    a:hover {
+      /* Change this color and everywhere else it is referenced to change the font color */
+      color: #ccffe6;
+    }
+    html,
+    body {
+      height: 100%;
+      /* Change this color to change the color of the background of your webpage */
+      background-color:#3D352A;
+    }
+    body {
+      font-family: 'Mitr', sans-serif;
+      display: -ms-flexbox;
+      display: flex;
+      color: #ccffe6;
+      box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+    }
+    .cover-container {
+      /* Tweak this value if you want more/less empty space on the sides of your webpage */
+      max-width: 48em;
+    }
+    .masthead {
+      margin-bottom: 2rem;
+    }
+    .nav-masthead .nav-link {
+      padding: .25rem 0;
+      font-weight: 700;
+      color:#ccffe6;
+      background-color: transparent;
+      border-bottom: .25rem solid transparent;
+    }
+    .nav-masthead .nav-link:hover,
+    .nav-masthead .nav-link:focus {
+      border-bottom-color: #ccffe6;
+    }
+    .nav-masthead .nav-link + .nav-link {
+      margin-left: 1rem;
+    }
+    @media (min-width: 48em) {
+      .nav-masthead {
+        float: right;
+      }
+    }
+    .cover {
+      padding: 0 1.5rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <header class="masthead">
+      <div class="inner">
+        <nav class="nav nav-masthead justify-content-center">
+          <a class="nav-link" href="#" rel="noopener noreferrer" target="_blank">YOUR_FIRST_LINK</a>
+          <a class="nav-link" href="#" rel="noopener noreferrer" target="_blank">YOUR_SECOND_LINK</a>
+          <a class="nav-link" href="#" rel="noopener noreferrer" target="_blank">YOUR_THIRD_LINK</a>
+        </nav>
+      </div>
+    </header>
+  
+    <main role="main" class="inner cover my-auto text-center">
+      <h1 class="cover-heading">YOUR_WELCOME_HERE</h1>
+      <img src="YOUR_IMAGE_URL" alt="YOUR_IMAGE_DESCRIPTION" class="img-thumbnail m-3 w-25">
+      <p class="lead">YOUR_WEBSITE_DESCRIPTION</p>
+    </main>
+  </div>
+</body>
+</html>
