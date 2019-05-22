@@ -3,7 +3,8 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
+  <!-- This tag ensures that the webpage scales correctly across devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>YOUR_TITLE_HERE</title>
   <!-- meta tags make it easier for search engines (like Google) and users to know what your site is about -->
   <meta name="description" content="YOUR_NAME personal website">
@@ -13,13 +14,13 @@
   <!-- You may need to change this link to upgrade the library or if there is an issue with the CDN link -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-  <!-- This is the image that shows up in the corner of the browser tab. You can replace the image in this folder, but make sure it is still named favicon.png -->
-  <!-- The way this is written works for all modern browsers -->
-  <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+  <!-- This is the image that shows up in the corner of the browser tab. -->
+  <!-- You can convert image files into .ico files here: https://icoconvert.com -->
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
 
   <!-- I'm loading a custom font which is not necessary but is pretty. -->
   <!-- You can go here: https://fonts.google.com to find different fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Mitr&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
 
   <style>
     /* It's not usually a "best practice" to add CSS styles into HTML like this but it makes it easier for you to make changes */
@@ -33,10 +34,10 @@
     body {
       height: 100%;
       /* Change this color to change the color of the background of your webpage */
-      background-color:#3D352A;
+      background-color:#312d27;
     }
     body {
-      font-family: 'Mitr', sans-serif;
+      font-family: 'Dosis', sans-serif;
       display: -ms-flexbox;
       display: flex;
       color: #ccffe6;
@@ -44,7 +45,7 @@
     }
     .cover-container {
       /* Tweak this value if you want more/less empty space on the sides of your webpage */
-      max-width: 48em;
+      max-width: 50em;
     }
     .masthead {
       margin-bottom: 2rem;
@@ -88,7 +89,7 @@
   
     <main role="main" class="inner cover my-auto text-center">
       <h1 class="cover-heading">YOUR_WELCOME_HERE</h1>
-      <img src="YOUR_IMAGE_URL" alt="YOUR_IMAGE_DESCRIPTION" class="img-thumbnail m-3 w-25">
+      <img src="YOUR_IMAGE_URL" alt="YOUR_IMAGE_DESCRIPTION" class="img-thumbnail m-2 w-25">
       <p class="lead">YOUR_WEBSITE_DESCRIPTION</p>
     </main>
   </div>
