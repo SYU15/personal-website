@@ -1,7 +1,7 @@
-# syu15.github.io
-Sarah Yu's personal website and crash course for TechWomen alumni.
+# Sarah Yu's website
+This is the repo for Sarah Yu's personal website and crash course for TechWomen alumni.
 
-This is a barebones repo to help people get up and running with a personal site while learning the  fundamentals of building a basic webpage
+This is a very barebones repo to help people get up and running with a personal site while learning the fundamentals of building a basic webpage.
 
 # Getting Started
 ## What to do with this repository
@@ -12,7 +12,7 @@ Here are the steps if you want to play around or use this as a base for your own
 2. After forking/copying this repository start by [modifying the website inside GitHub](https://help.github.com/en/articles/editing-files-in-your-repository). You can also try [making changes in the command line](https://education.github.com/git-cheat-sheet-education.pdf) which is a more typical development workflow.
 3. Some common changes you may want to make:
     * Changing the text in `index.html` to add your information/links
-    * Swapping out the favicon and profile image with your photos
+    * Adding a favicon and profile image
     * Changing the appearance of the site with CSS and/or [Bootstrap classes](https://getbootstrap.com)
 4. To preview the changes you have made, you can paste the GitHub url of your `index.html` page into [html preview](http://htmlpreview.github.io/)
 5. When you are ready to make your website public, set your master branch to be the [publishing source of the website](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages)
