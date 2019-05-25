@@ -3,51 +3,41 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Sarah Yu</title>
+  <meta name="description" content="Sarah Yu's personal website">
+  <meta name="author" content="Sarah Yu">
 
-  <title>YOUR_TITLE_HERE</title>
-  <!-- meta tags make it easier for search engines (like Google) and users to know what your site is about -->
-  <meta name="description" content="YOUR_NAME personal website">
-  <meta name="author" content="YOUR_NAME">
-
-  <!-- Bootstrap is the most popular CSS framework out there. This file is hosted on a CDN (bootstrapcdn) for simplicity. -->
-  <!-- You may need to change this link to upgrade the library or if there is an issue with the CDN link -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-  <!-- This is the image that shows up in the corner of the browser tab. You can replace the image in this folder, but make sure it is still named favicon.png -->
-  <!-- The way this is written works for all modern browsers -->
-  <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
-
-  <!-- I'm loading a custom font which is not necessary but is pretty. -->
-  <!-- You can go here: https://fonts.google.com to find different fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Mitr&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+  <link href="https://fonts.googleapis.com/css?family=Abel|Raleway&display=swap" rel="stylesheet">
 
   <style>
-    /* It's not usually a "best practice" to add CSS styles into HTML like this but it makes it easier for you to make changes */
     a,
     a:focus,
     a:hover {
-      /* Change this color and everywhere else it is referenced to change the font color */
       color: #ccffe6;
     }
     html,
     body {
       height: 100%;
-      /* Change this color to change the color of the background of your webpage */
-      background-color:#3D352A;
+      background-color:#152525;
     }
     body {
-      font-family: 'Mitr', sans-serif;
+      font-family: 'Abel', sans-serif;
       display: -ms-flexbox;
       display: flex;
       color: #ccffe6;
       box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
     }
     .cover-container {
-      /* Tweak this value if you want more/less empty space on the sides of your webpage */
-      max-width: 48em;
+      max-width: 50em;
     }
     .masthead {
       margin-bottom: 2rem;
+      border-bottom: 1px solid white;
+      font-family: 'Raleway', sans-serif;
     }
     .nav-masthead .nav-link {
       padding: .25rem 0;
@@ -71,25 +61,39 @@
     .cover {
       padding: 0 1.5rem;
     }
+    .cover-heading {
+      font-family: 'Raleway', sans-serif;
+    }
+    .profile-photo {
+      background-color: transparent;
+      border: 1px solid white;
+      border-radius: 0;
+    }
   </style>
 </head>
 
 <body>
   <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-    <header class="masthead">
+  <header class="masthead">
       <div class="inner">
         <nav class="nav nav-masthead justify-content-center">
-          <a class="nav-link" href="#" rel="noopener noreferrer" target="_blank">YOUR_FIRST_LINK</a>
-          <a class="nav-link" href="#" rel="noopener noreferrer" target="_blank">YOUR_SECOND_LINK</a>
-          <a class="nav-link" href="#" rel="noopener noreferrer" target="_blank">YOUR_THIRD_LINK</a>
+          <a class="nav-link" href="https://www.linkedin.com/in/sarah-yu15/" rel="noopener noreferrer" target="_blank">LinkedIn</a>
+          <a class="nav-link" href="https://github.com/SYU15" rel="noopener noreferrer" target="_blank">GitHub</a>
         </nav>
       </div>
     </header>
-  
     <main role="main" class="inner cover my-auto text-center">
-      <h1 class="cover-heading">YOUR_WELCOME_HERE</h1>
-      <img src="YOUR_IMAGE_URL" alt="YOUR_IMAGE_DESCRIPTION" class="img-thumbnail m-3 w-25">
-      <p class="lead">YOUR_WEBSITE_DESCRIPTION</p>
+      <h1 class="cover-heading">Welcome!</h1>
+      <img src="/Sarah_Yu.jpeg" alt="Sarah Yu's face" class="img-thumbnail w-50 m-3 profile-photo">
+      <p class="lead">
+        Are you looking for Sarah Yu? Then this is the right page for you (unless you are looking for a different Sarah Yu, which is very possible).
+        I'm a frontend engineer at LinkedIn but was once <a href="https://www.ktoo.org/author/sarahyu" rel="noopener noreferrer" target="_blank">kind of</a> a <a href="https://cmsw.mit.edu/butterfly-people-impacts-creatures-love/" rel="noopener noreferrer" target="_blank">journalist</a>. 
+      </p>
+      <p>
+        Professionally, I'm dedicated to <a href="https://careers.linkedin.com/reach" rel="noopener noreferrer" target="_blank">lowering the barrier to entry</a> for software engineering and working on projects that have meaning to me.
+        In my free time, I like to play video games, <a href="https://open.spotify.com/user/12142832647/playlist/3WoHl5aQoOvC6ypIpriCsk?si=QKsetkA2QiyJbAYaAwujog" rel="noopener noreferrer" target="_blank">listen to whiny music</a>, pet my cat and make jewelry (see necklace above).
+        The easiest way to get in touch is by emailing me at sarahmyu15@gmail.com.
+      </p>
     </main>
   </div>
 </body>
