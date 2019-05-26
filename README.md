@@ -8,7 +8,7 @@ This is a very barebones repo to help people get up and running with a personal 
 If you are brand new to GitHub you may want to go through the [GitHub guides](https://guides.github.com).
 
 Here are the steps if you want to play around or use this as a base for your own website:
-1. Read about [GitHub pages as a way to host your website](https://pages.github.com/) and [fork](https://guides.github.com/activities/forking) this repository. Or you can just copy/paste what you need (I won't judge).
+1. Read about [GitHub pages as a way to host your website](https://pages.github.com/) and [clone](https://help.github.com/en/articles/cloning-a-repository) or [fork](https://guides.github.com/activities/forking) this repository. Or you can just copy/paste what you need (I won't judge).
 2. After forking/copying this repository start by [modifying the website inside GitHub](https://help.github.com/en/articles/editing-files-in-your-repository). You can also try [making changes in the command line](https://education.github.com/git-cheat-sheet-education.pdf) which is a more typical development workflow.
 3. Some common changes you may want to make:
     * Changing the text in `index.html` to add your information/links
