@@ -1,5 +1,5 @@
 # Sarah Yu's website
-This is the repo for Sarah Yu's personal website and crash course for TechWomen alumni.
+This is the repo for Sarah Yu's personal website and website template for a TechWomen alumni webinar.
 
 This is a very barebones repo to help people get up and running with a personal site while learning the fundamentals of building a basic webpage.
 
@@ -45,3 +45,7 @@ These options cost more but are more powerful/flexible and easier to get up and 
 4. https://www.wix.com
 
 If you want a blog style website and/or a fancier theme on GitHub pages, you can also look into [Jekyll](https://help.github.com/en/articles/using-jekyll-as-a-static-site-generator-with-github-pages).
+
+
+# Issues
+If you find any bugs feel free to open up an [issue](https://help.github.com/en/articles/creating-an-issue) or [fix it](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork).
