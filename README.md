@@ -1,7 +1,7 @@
-# Sarah Yu's website
-This is the repo for Sarah Yu's personal website and website template for a TechWomen alumni webinar.
+# Simple personal website theme
+This is the repo is a simple website template for a TechWomen alumni webinar.
 
-This is a very barebones repo to help people get up and running with a personal site while learning the fundamentals of building a basic webpage.
+This is a very barebones repo to help people get up and running with a personal landing page site while learning the fundamentals of building a basic webpage.
 
 # Getting Started
 ## What to do with this repository
