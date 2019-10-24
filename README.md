@@ -1,5 +1,5 @@
 # Simple personal website theme
-This is the repo is a simple website template for a TechWomen alumni webinar.
+This is a simple website template for a TechWomen alumni webinar.
 
 This is a very barebones repo to help people get up and running with a personal landing page site while learning the fundamentals of building a basic webpage.
 
